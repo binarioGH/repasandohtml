@@ -1,0 +1,28 @@
+*{
+	border:2px solid red;
+}
+body{
+	background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmGzOVLtkE4lpYyUcx7cLf5ZUIJV8saoS5_uHEOVyntt8vDCHq");
+	font-family:"Arial";
+}
+.cajaConTexto{
+	background-color:#ffffff;
+	border:4px solid black;
+	margin-left:25%;
+	width: 50%;
+}
+nav{
+	border-top:2px solid black;
+}
+ul{
+	margin-left:25%;
+}
+.titular{
+	text-align: center;
+	font-family:"Arial Black";
+}
+
+section .cajaConTexto{
+	margin-top:10%;
+	margin-bottom:10%;
+}
