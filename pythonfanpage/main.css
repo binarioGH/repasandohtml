@@ -1,6 +1,4 @@
-*{
-	border:2px solid red;
-}
+
 body{
 	background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmGzOVLtkE4lpYyUcx7cLf5ZUIJV8saoS5_uHEOVyntt8vDCHq");
 	font-family:"Arial";
@@ -18,11 +16,30 @@ ul{
 	margin-left:25%;
 }
 .titular{
+	border-bottom:1px solid black;
+	font-size:20px;
 	text-align: center;
 	font-family:"Arial Black";
 }
 
 section .cajaConTexto{
-	margin-top:10%;
-	margin-bottom:10%;
+	margin-left:10%;
+	margin-top:5%;
+	margin-bottom:5%;
+	width: 80%;
+}
+.br:before{
+	content:"\A";
+	white-space: pre;
+}
+#video{
+	margin-left:10%;
+}
+#imgg{
+	margin-left:75%;
+}
+footer{
+	background-color:#353b48;
+	color:#f5f6fa;
+	width:100%;
 }
